@@ -6,6 +6,7 @@ const initCLI = () => {
 	console.log(args);
 	if (args.h) {
 		// Вывод help
+        printHelp();
 	}
 	if (args.s) {
 		// Сохранить город
